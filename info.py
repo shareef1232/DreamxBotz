@@ -42,7 +42,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002217495448').split()]  # Channel id for auto indexing (make sure bot is admin)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002387165198'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002387165198'))  # Bin channel id (make sure bot is admin)
-DREAMCINEZONE_MOVIE_UPDATE_CHANNEL = int(environ.get('DREAMCINEZONE_MOVIE_UPDATE_CHANNEL', '-1002299429051'))  # Notification of those who verify will be sent to your channel
+DREAMCINEZONE_MOVIE_UPDATE_CHANNEL = int(environ.get('DREAMCINEZONE_MOVIE_UPDATE_CHANNEL', '-1002394363408'))  # Notification of those who verify will be sent to your channel
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002265943277'))  # Premium logs channel id
 auth_channel = environ.get('AUTH_CHANNEL', '')  # Channel/Group ID for force sub (make sure bot is admin)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002352846118').split()]
@@ -96,7 +96,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True ))
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+axnqX7lZ9b8wZjU9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/moviez_brand')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/moviez_brand')
-DREAMCINEZONE_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DREAMCINEZONE_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/movizzbrand')
+DREAMCINEZONE_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DREAMCINEZONE_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+pR35p2hlA2tkYjRl')
 OWNERID = int(os.environ.get('OWNERID', '993294576'))  # Replace with the actual admin ID
 
 # ============================
